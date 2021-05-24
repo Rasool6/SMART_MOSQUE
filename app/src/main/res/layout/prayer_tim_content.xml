@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Prayer Time for Your Mosque"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:background="@drawable/bg_btn"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:maxLines="1"
+        android:layout_marginTop="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Add Prayer Name"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+        android:id="@+id/editPrayerName"
+        android:background="@drawable/bg_edt"
+        android:paddingLeft="20dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Fajer Prayer Time"
+        android:inputType="text"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:maxLines="1"
+        android:id="@+id/editPrayerTime"
+        android:background="@drawable/bg_edt"
+        android:paddingLeft="20dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Share Islamic Information about Prayer"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:id="@+id/editAboutPrayer"
+        android:background="@drawable/bg_edt"
+        android:paddingLeft="20dp"
+        />
+
+    <Button
+        android:id="@+id/updatePrayerBtnId"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/bg_btn"
+        android:text="Update Prayer"
+        android:textSize="18sp"
+        />
+
+
+
+</LinearLayout>

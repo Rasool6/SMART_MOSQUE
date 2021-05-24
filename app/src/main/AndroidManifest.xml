@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.variable.smartmosque">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Islamic_UniqueInfoActivity"></activity>
+        <activity android:name=".Islamic_infoActivity" />
+        <activity android:name=".UserIslamicPosts" />
+        <activity android:name=".UserShowPrayerTime" />
+        <activity android:name=".MosqueSpecificDetailActicity" />
+        <activity android:name=".MosqueListActivity" />
+        <activity android:name=".UpdateIskamicInfoActivity" />
+        <activity android:name=".IslaminInfoDetailActivity" />
+        <activity android:name=".AddIslamic_Info_Activity" />
+        <activity android:name=".PraytimeDetailActivity" />
+        <activity android:name=".AddPrayerTimeActivity" />
+        <activity android:name=".UpdateMosqueProfile" />
+        <activity android:name=".AdminPanalDrawarActivity" />
+        <activity android:name=".UserLandingActivity" />
+        <activity android:name=".AdminSignUpActivity" />
+        <activity android:name=".AdminLandingActivity" />
+        <activity android:name=".AdminLoginActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".UserType" />
+    </application>
+
+</manifest>

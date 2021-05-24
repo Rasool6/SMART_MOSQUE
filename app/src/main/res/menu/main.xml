@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+
+    <item android:title="Profile"
+          android:id="@+id/item_profile"
+        android:icon="@drawable/ic_account_"
+            />
+    <item android:title="Prayer time"
+           android:id="@+id/item_prayer"
+        android:icon="@drawable/ic_time_24"/>
+    <item android:title="My Posts"
+        android:id="@+id/item_IslamicInfo"
+        android:icon="@drawable/ic_info"/>
+
+
+
+</menu>

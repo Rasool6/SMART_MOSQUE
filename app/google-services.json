@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "508916495522",
+    "firebase_url": "https://smart-mosque.firebaseio.com",
+    "project_id": "smart-mosque",
+    "storage_bucket": "smart-mosque.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508916495522:android:f753923495e4146ab053fb",
+        "android_client_info": {
+          "package_name": "com.variable.smartmosque"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508916495522-1hfobje4ckighmqafahr2vb5sp3jo51k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLS5YP8EU2FXkG6FJ7Om3iq0YMLTFPq_Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508916495522-1hfobje4ckighmqafahr2vb5sp3jo51k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

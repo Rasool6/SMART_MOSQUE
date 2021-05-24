@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".IslaminInfoDetailActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="10sp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeDetailPrayShow"
+            android:layout_margin="10dp"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="Islamic Info"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimaryDark"
+                android:id="@+id/prayNameShowdetail"/>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Title"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_below="@+id/prayNameShowdetail"
+                android:id="@+id/detailTitle"/>
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@drawable/avatar04"
+    android:id="@+id/detailImage"
+    android:scaleType="fitXY"
+    android:layout_below="@+id/detailTitle"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Dua Or Hadees About Prayer"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_below="@+id/detailImage"
+                android:id="@+id/hadeesaboutPrayer"
+                android:layout_marginTop="16sp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="Dua Or Hadees About Prayer"
+                android:layout_marginTop="5sp"
+                android:layout_below="@+id/hadeesaboutPrayer"
+                android:id="@+id/detailinfo"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:text="Curent Date"
+                android:layout_marginTop="5sp"
+                android:layout_below="@+id/detailinfo"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/currentDatedetail"/>
+
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#C1BEBE"
+        />
+
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AdminSignUpActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_edt"
+                android:paddingLeft="20dp"
+                android:hint="mosque name"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/txtMosqueName"/>
+            <EditText
+            android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_edt"
+                android:paddingLeft="20dp"
+            android:hint="imam name"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/txtimamName"/>
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_edt"
+                android:paddingLeft="20dp"
+                android:hint="Sect"
+                android:entries="@array/sect"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/sectSpinner"/>
+            <EditText
+            android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_edt"
+                android:paddingLeft="20dp"
+                android:hint="email"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/txtemail"/>
+            <EditText
+            android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_edt"
+                android:paddingLeft="20dp"
+                android:hint="password"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/txtpassword1"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_edt"
+                android:paddingLeft="20dp"
+                android:hint="confirm password"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:id="@+id/txtpassword2"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                >
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/bg_btn"
+                    android:layout_weight="1"
+                    android:text="Current Location"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:textColor="#fff"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/getLocation"/>
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_edt"
+                    android:paddingLeft="20dp"
+                    android:layout_weight="1"
+                    android:hint="Current Location"
+                    android:inputType="none"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:id="@+id/txtgetLocation"/>
+            </LinearLayout>
+
+            <ProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/progressId"
+                android:visibility="gone"/>
+            <Button
+                android:id="@+id/btnAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:textColor="#fff"
+                android:background="@drawable/bg_btn"
+                android:text="Submit"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>
